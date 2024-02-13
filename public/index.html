@@ -6,6 +6,27 @@
   <title>Document</title>
 </head>
 <body>
+
   
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyCd5mioUBk_pfvxDKhhqzKW_qgM2eIGpUo",
+      authDomain: "sign-on-with-email.firebaseapp.com",
+      projectId: "sign-on-with-email",
+      storageBucket: "sign-on-with-email.appspot.com",
+      messagingSenderId: "948314453037",
+      appId: "1:948314453037:web:4e3a5f44e17a3162e434a4"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
 </body>
 </html>
